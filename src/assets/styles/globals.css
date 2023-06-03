@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "medium";
+    src: url("../font/Quicksand-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "semibold";
+    src: url("../font/Quicksand-SemiBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "bold";
+    src: url("../font/Quicksand-Bold.ttf") format("truetype");
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "medium";
+}
+
+.tamgiac {
+  @apply after:content-[''] after:block after:absolute after:top-0 after:right-[-30px] after:w-0 after:h-0 after:ml-0 after:border-t-[26px] after:border-t-[transparent] after:border-l-[30px]  after:border-r-0 after:border-r-[transparent] after:border-b-[28px] after:border-b-[transparent];
+}

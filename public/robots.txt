@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sumipet.site
+
+# Sitemaps
+Sitemap: https://sumipet.site/sitemap.xml
